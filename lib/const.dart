@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-const backGroundColor = Color.fromRGBO(0, 0, 0, 1.0);
-const blueColor = Color.fromRGBO(0, 149, 246, 1);
-const primaryColor = Colors.white;
+const backGroundColor = Colors.white;
+const blueColor = Color(0xFF5983F7);
+const primaryColor = Colors.black87;
 const secondaryColor = Colors.grey;
 const darkGreyColor = Color.fromRGBO(97, 97, 97, 1);
 

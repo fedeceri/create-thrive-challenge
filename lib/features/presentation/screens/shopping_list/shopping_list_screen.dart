@@ -9,10 +9,7 @@ class ShoppingListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-      appBar: AppBar(
-        backgroundColor: backGroundColor,
-        title: const Text("Shopping List Screen", style: TextStyle(color: primaryColor),),
-      )
+      screenName: "Shopping List",
     );
   }
 }

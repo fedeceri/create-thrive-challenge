@@ -9,10 +9,7 @@ class FavoritesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
-        appBar: AppBar(
-          backgroundColor: backGroundColor,
-          title: const Text("Favorites Screen", style: TextStyle(color: primaryColor),),
-        )
+        screenName: "Favorites Screen",
     );
   }
 }
