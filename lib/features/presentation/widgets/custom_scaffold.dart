@@ -20,7 +20,10 @@ class CustomScaffold extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: backGroundColor,
-      body: body,
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: body,
+      ),
       appBar: haveAppBar! ? AppBar(
         backgroundColor: backGroundColor,
         automaticallyImplyLeading: true,

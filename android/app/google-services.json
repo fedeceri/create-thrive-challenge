@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "71659991191",
+    "project_id": "ctchallenge-8f3b0",
+    "storage_bucket": "ctchallenge-8f3b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71659991191:android:105d49cc96458f2c5879d2",
+        "android_client_info": {
+          "package_name": "com.federicoceriani.challenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71659991191-ie8iahco9uuqdv8ft2ofv0b4k76gn9md.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRu0DvYxmy5QhIe6evSyg0_Jjab_vVAqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71659991191-ie8iahco9uuqdv8ft2ofv0b4k76gn9md.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

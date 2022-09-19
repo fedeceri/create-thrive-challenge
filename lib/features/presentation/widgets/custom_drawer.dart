@@ -32,7 +32,7 @@ class CustomDrawer extends StatelessWidget {
             ),
             title: const Text('Shopping list'),
             onTap: () {
-              Navigator.pop(context);
+              Navigator.pushNamedAndRemoveUntil(context, PageConst.shoppingListScreen, (route) => false);
             },
           ),
           ListTile(
@@ -41,7 +41,9 @@ class CustomDrawer extends StatelessWidget {
             ),
             title: const Text('Create item/category'),
             onTap: () {
-              Navigator.pop(context);
+              Navigator.pushNamedAndRemoveUntil(context, PageConst.createItemAndCategoryScreen, (route) => false);
+
+              //Navigator.pop(context);
             },
           ),
           ListTile(
@@ -50,7 +52,8 @@ class CustomDrawer extends StatelessWidget {
             ),
             title: const Text('Favorites'),
             onTap: () {
-              Navigator.pop(context);
+              Navigator.pushNamedAndRemoveUntil(context, PageConst.favoritesScreen, (route) => false);
+              //Navigator.pop(context);
             },
           ),
         ],

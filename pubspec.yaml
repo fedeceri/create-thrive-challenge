@@ -60,6 +60,11 @@ dependencies:
   fluttertoast: ^8.0.9
   modal_bottom_sheet: ^2.0.1
 
+  #Others
+  flutter_colorpicker: ^1.0.3
+  flutter_hooks: ^0.18.5+1
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
